@@ -44,6 +44,9 @@ tests = [
     # ["minSpanningForest/parallelKruskal",True],
     ["minSpanningForest/parallelFilterKruskal",True,0],
     ["minSpanningForest/serialMST",False,0],
+    ["minSpanningForest/gpuMSTdpk",True,0],
+    ["minSpanningForest/gpuMST",True,0],
+
 
     ["spanningForest/incrementalST",True,1],
     ["spanningForest/ndST",True,0],
