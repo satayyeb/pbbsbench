@@ -114,9 +114,9 @@ struct matchStep {
 };
 
 parlay::sequence<edgeId> maximalMatching(edges const &E) {
-    printf("CUDA starting...");
+//    printf("CUDA starting...");
     main2();
-    printf("CUDA end.");
+//    printf("CUDA end.");
     size_t n = max(E.numCols, E.numRows);
     size_t m = E.nonZeros;
     timer t("max matching", true);

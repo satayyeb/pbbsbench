@@ -56,6 +56,7 @@ tests = [
 
     ["maximalMatching/serialMatching",False,0],
     ["maximalMatching/incrementalMatching",True,0],
+    ["maximalMatching/gpu_implementation",True,0],
 
     ["maximalIndependentSet/incrementalMIS",True,0],
     ["maximalIndependentSet/ndMIS",True,1],
